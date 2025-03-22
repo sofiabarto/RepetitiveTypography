@@ -999,7 +999,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "preloadImages", ()=>preloadImages);
 const imagesLoaded = require("469e3acfa4a2d33e");
 // Preload images
-const preloadImages = (selector = 'img')=>{
+const preloadImages = (selector = 'img def')=>{
     return new Promise((resolve)=>{
         imagesLoaded(document.querySelectorAll(selector), {
             background: true
